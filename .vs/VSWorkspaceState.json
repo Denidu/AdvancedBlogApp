@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Models",
+    "\\Models\\Controllers",
+    "\\Models\\Models",
+    "\\Models\\Views",
+    "\\Models\\Views\\BlogPost",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\net7.0",
+    "\\obj\\Debug\\net7.0\\refint",
+    "\\obj\\Release",
+    "\\Properties"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

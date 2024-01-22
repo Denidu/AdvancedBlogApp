@@ -1,0 +1,12 @@
+<!-- Views/BlogPost/Delete.cshtml -->
+
+@model AdvancedBlogApp.Models.BlogPost
+
+<h2>Delete Blog Post</h2>
+
+<p>Are you sure you want to delete this blog post?</p>
+
+<form asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit">Delete</button> |
+    <a asp-action="Index">Back to List</a>
+</form>

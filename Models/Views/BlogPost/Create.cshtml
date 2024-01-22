@@ -1,0 +1,18 @@
+<!-- Views/BlogPost/Create.cshtml -->
+
+@model AdvancedBlogApp.Models.BlogPost
+
+<h2>Create Blog Post</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+    <!-- Add other input fields as needed -->
+    <button type="submit">Create</button>
+</form>
